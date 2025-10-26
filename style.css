@@ -60,3 +60,46 @@ table > * {
 #item\?three {
     float: left;
 }
+
+@media screen and (max-width: 616px) {
+  header {
+    background: #ED254E;
+    display: block;
+    padding: 0;
+  }
+
+  header ul li {
+    display: block;
+    border-top: 1px solid #011936;
+  }
+
+  header h1 {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    background: #F9DC5C;
+    color: #011936;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background: #C2EABD;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    background: #011936;
+    color: #C2EABD;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    background: #465362;
+  }
+}
