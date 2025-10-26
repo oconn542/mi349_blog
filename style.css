@@ -60,6 +60,9 @@ table > * {
 #item\?three {
     float: left;
 }
+img {
+    width: 100%;
+}
 
 @media screen and (max-width: 616px) {
   header {
@@ -67,7 +70,6 @@ table > * {
     display: block;
     padding: 0;
   }
-
   header ul li {
     display: block;
     border-top: 1px solid #011936;
