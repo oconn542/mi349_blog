@@ -78,6 +78,10 @@ img {
   header h1 {
     padding: 20px;
   }
+  table {
+    width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -85,11 +89,19 @@ img {
     background: #F9DC5C;
     color: #011936;
   }
+  table {
+    width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
   header {
     background: #C2EABD;
+  }
+  table {
+    width: 100%;
+    display: block;
   }
 }
 
@@ -98,10 +110,18 @@ img {
     background: #011936;
     color: #C2EABD;
   }
+  table {
+    width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   header {
     background: #465362;
+  }
+  table {
+    width: 100%;
+    display: block;
   }
 }
